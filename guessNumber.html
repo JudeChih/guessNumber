@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.js"></script>
+        <title>猜數字</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="guessNumber.js"></script>
+        
+        <!-- 最新編譯和最佳化的 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <!-- 選擇性佈景主題 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <!-- 最新編譯和最佳化的 JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <link href="guessNumber.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="back">
+            
+            <div id="wrapper" class="cleatfix">
+                <div id="tools">
+                    <div>
+                        <button id="new" class="btn btn-sm btn-success block">新的一局</button>
+                        <button id="show" class="btn btn-sm btn-danger block">公布答案</button>
+                    </div>
+                </div>
+                <div id="correctAnswer">
+                    <p>正確答案</p>
+                    <input type="text" size="2" value="XXXX" readonly="readonly"  />
+                </div>
+                <div id="logo"></div>
+                <div id="guessAnswer">
+                    <input type="text" size="7" placeholder="輸入四位數" maxlength="4" />
+                </div>
+                <div id="decide">
+                    <button class="btn btn-info btn-xs">送出</button>
+                </div>
+                <ol >
+                    <li class="notUsed"><div></div><div></div></li>
+                    <li class="notUsed"><div></div><div></div></li>
+                    <li class="notUsed"><div></div><div></div></li>
+                    <li class="notUsed"><div></div><div></div></li>
+                    <li class="notUsed"><div></div><div></div></li>
+                    <li class="notUsed"><div></div><div></div></li>
+                    <li class="notUsed"><div></div><div></div></li>
+                    <li class="notUsed"><div></div><div></div></li>
+                    <li class="notUsed"><div></div><div></div></li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>
